@@ -5,7 +5,8 @@ let drop = Droplet()
 drop.get("/hellojson") { request in
     return try JSON(node: [
         "version": "1.0",
-        "hello":"World!"
+        "hello":"World!",
+        "test":"testIng"
     ])
 }
 
